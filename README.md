@@ -35,7 +35,7 @@
 
 <tr>
 <td width="64">
-<p><strong>۱</strong></p>
+<p><strong>1</strong></p>
 </td>
 <td width="198">
 <p>Order Service</p>
@@ -50,7 +50,7 @@
 
 <tr>
 <td width="64">
-<p><strong>۲</strong></p>
+<p><strong>2</strong></p>
 </td>
 <td width="198">
 <p>Order Service</p>
