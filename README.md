@@ -160,7 +160,10 @@
 <p><strong>موارد تحقق</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>
+<del>
+ در کلاس های Food و Order
+رعایت شده است. از آنجا که این کلاس ها وابستگی به سایر کلاس ها ندارند برای توسعه آزاد هستند. 
 </td>
 </tr>
 
@@ -169,7 +172,10 @@
 <p><strong>موارد نقض</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>
+این اصل در OrderService و متعاقبا کلاس‌های ارث برنده از آن رعایت نشده است، 
+چرا که به عنوان مثال برای اضافه کردن قابلیت خرید تلفنی باید کلاس های OnlineOrderService و OnSiteOrderService نیز تغییر بدهیم.
+</p>
 </td>
 </tr>
 
@@ -184,7 +190,12 @@
 <p><strong>موارد تحقق</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>
+اصل LSP
+در ارتباط رابط OrderService و کلاس های
+OnlineOrderService و OnSiteOrderService
+به درستی رعایت شده است.
+</p>
 </td>
 </tr>
 
@@ -193,7 +204,9 @@
 <p><strong>موارد نقض</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>
+ موردی از نفض و عدم رعایت این اصل در پروژه وجود ندارد.
+</p>
 </td>
 </tr>
 
@@ -208,7 +221,8 @@
 <p><strong>موارد تحقق</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>موردی از رعایت اصل ISP 
+در پروژه وجود ندارد.</p>
 </td>
 </tr>
 
@@ -217,7 +231,10 @@
 <p><strong>موارد نقض</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>
+در پیاده‌سازی فعلی، این اصل در OrderService 
+نقض شده است چرا که ما مجبور هستیم در کلاس‌های ارث برنده از آن برخی توابع رابط را خالی بگذاریم.
+</p>
 </td>
 </tr>
 
@@ -232,7 +249,12 @@
 <p><strong>موارد تحقق</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>
+این اصل در رابط OrderService و کلاس‌های مربوطه است به درستی رعایت شده است.
+
+<del> main
+نیز از این اصل پیروی می‌کند.</del>
+</p>
 </td>
 </tr>
 
@@ -241,7 +263,7 @@
 <p><strong>موارد نقض</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p>موردی از نقض اصل DIP در پروژه وجود ندارد.</p>
 </td>
 </tr>
 </tbody>
@@ -264,34 +286,52 @@
 <p><strong>راه حل پیشنهادی</strong></p>
 </td>
 </tr>
+
 <tr>
 <td width="168">
-<p>&nbsp;</p>
+<p>SRP</p>
 </td>
-<td width="246">
-<p>&nbsp;</p>
+<td width="275">
+<p>
+همه فاز‌های مختلف سفارش دادن تا خرید در تابع main پیاده شده است.
+
+<del> شک دارم
+</p>
 </td>
 <td width="284">
 <p>&nbsp;</p>
 </td>
 </tr>
+
 <tr>
 <td width="168">
-<p>&nbsp;</p>
+<p>OCP</p>
 </td>
-<td width="246">
-<p>&nbsp;</p>
+<td width="275">
+<p>
+برای اضافه کردن قابلیت جدید، مثلا خرید و ثبت سفارش تلفنی، باید کلاس های OnlineOrderService و OnSiteOrderService نیز تغییر بدهیم.
+</p>
 </td>
 <td width="284">
 <p>&nbsp;</p>
 </td>
 </tr>
+
 <tr>
 <td width="168">
-<p>&nbsp;</p>
+<p>ISP</p>
 </td>
-<td width="246">
-<p>&nbsp;</p>
+<td width="275">
+<p>
+در کلاس‌های ارث برنده از OrderService
+یعنی کلاس  OnSiteOrderService
+، توابع onlineOrderRegister و onlineOrderPayment
+و در کلاس OnlineOrderService
+توابع onSiteOrderRegister و onSiteOrderPayment
+باید خالی بمانند. 
+
+
+</p>
 </td>
 <td width="284">
 <p>&nbsp;</p>
@@ -314,9 +354,13 @@
 
 ### گام ۳: اصلاح موارد نقض
 
+با توجه به پیشنهادات ارائه شده در بخش قبل، اصلاحاتی را در پروژه اعمال کردیم که در commit
+زیر قابل مشاهده است:
+
+[commit hash or message](www.link_to_commit.com)
 
 ### گام ۴: بررسی مجدد تغییرات مورد نیاز
 
+<b> Deboooooooooo </b>
 
 ### گام ۵: جمع بندی
-
