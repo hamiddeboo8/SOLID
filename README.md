@@ -59,52 +59,187 @@
 <p>افزودن تابع ثبت سفارش تلفتی</p>
 </td>
 <td width="292">
+<p>افزودن یک تابع void با عنوان phone Order Register</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>3</strong></p>
+</td>
+<td width="198">
+<p>On-site Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع ثبت سفارش تلفتی</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان phone Order Register</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>4</strong></p>
+</td>
+<td width="198">
+<p>On-site Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع ثبت پرداخت تلفتی</p>
+</td>
+<td width="292">
 <p>افزودن یک تابع void با عنوان phone Order Payment</p>
 </td>
 </tr>
 
 <tr>
 <td width="64">
-<p><strong>۳</strong></p>
+<p><strong>5</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>Online Order Service</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن تابع ثبت سفارش تلفتی</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک تابع void با عنوان phone Order Register</p>
 </td>
 </tr>
 
 <tr>
 <td width="64">
-<p><strong>۴</strong></p>
+<p><strong>6</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>Online Order Service</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن تابع ثبت پرداخت تلفتی</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک تابع void با عنوان phone Order Payment</p>
 </td>
 </tr>
 
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>7</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>Phone Order Service</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>ساختن کلاس سرویس تلفتی</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>ساختن کلاس phoneOrderService</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>8</strong></p>
+</td>
+<td width="198">
+<p>Phone Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع ثبت سفارش آنلاین</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان online Order Register</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>9</strong></p>
+</td>
+<td width="198">
+<p>Phone Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع ثبت سفارش آفلاین</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان on-Site Order Register</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>10</strong></p>
+</td>
+<td width="198">
+<p>Phone Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع ثبت سفارش تلفنی</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان phone Order Register</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>11</strong></p>
+</td>
+<td width="198">
+<p>Phone Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع پرداخت آنلاین</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان online Order Payment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>12</strong></p>
+</td>
+<td width="198">
+<p>Phone Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع پرداخت آفلاین</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان on-Site Order Payment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>13</strong></p>
+</td>
+<td width="198">
+<p>Phone Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع پرداخت تلفنی</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان phone Order Payment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>14</strong></p>
+</td>
+<td width="198">
+<p>main</p>
+</td>
+<td width="141">
+<p>افزودن تغییراتی جهت اضافه کردن حالت تلفنی</p>
+</td>
+<td width="292">
+<p>اضافه کردن دو بدنه به صورت else if جهت در نظر گرفتن نوع پرداخت تلفنی</p>
 </td>
 </tr>
 
@@ -161,6 +296,7 @@
 </td>
 <td>
 <p>
+<del>
  در کلاس های Food و Order
 رعایت شده است. از آنجا که این کلاس ها وابستگی به سایر کلاس ها ندارند برای توسعه آزاد هستند. 
 </td>
@@ -249,8 +385,10 @@ OnlineOrderService و OnSiteOrderService
 </td>
 <td>
 <p>
-این اصل در ارتباط main
-و رابط OrderService و کلاس‌های مربوطه، به درستی رعایت شده است.
+این اصل در رابط OrderService و کلاس‌های مربوطه است به درستی رعایت شده است.
+
+<del> main
+نیز از این اصل پیروی می‌کند.</del>
 </p>
 </td>
 </tr>
@@ -291,6 +429,8 @@ OnlineOrderService و OnSiteOrderService
 <td width="275">
 <p>
 همه فاز‌های مختلف سفارش دادن تا خرید در تابع main پیاده شده است.
+
+<del> شک دارم
 </p>
 </td>
 <td width="284">
@@ -307,8 +447,7 @@ OnlineOrderService و OnSiteOrderService
 </td>
 <td width="275">
 <p>
-برای اضافه کردن قابلیت جدید، مثلا خرید و ثبت سفارش تلفنی، باید رابط OrderService
-و متعاقبا کلاس های OnlineOrderService و OnSiteOrderService نیز تغییر بدهیم.
+برای اضافه کردن قابلیت جدید، مثلا خرید و ثبت سفارش تلفنی، باید کلاس های OnlineOrderService و OnSiteOrderService نیز تغییر بدهیم.
 </p>
 </td>
 <td width="284">
@@ -361,7 +500,7 @@ OnlineOrderService و OnSiteOrderService
 
 ### گام ۴: بررسی مجدد تغییرات مورد نیاز
 
-<b> Deboooooooooo </b>
+<b>  </b>
 
 ### گام ۵: جمع بندی
 
