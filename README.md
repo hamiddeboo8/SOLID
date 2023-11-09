@@ -498,7 +498,8 @@ OnlineOrderService و OnSiteOrderService
 [babe639f6ba4bd80b3b55a6bc3a72129476aefbb](https://github.com/hamiddeboo8/SOLID/commit/babe639f6ba4bd80b3b55a6bc3a72129476aefbb)
 
 ### گام ۴: بررسی مجدد تغییرات مورد نیاز
-
+1. از تغییرات کلاس های online order service و offline order service معاف میشویم و همچنین تغییرات نامربوط را در phone order service نخواهیم داشت. در نتیجه از تغییرات 1، 2، 3، 4، 5، 6، 8، 9، 11 و 12 معاف خواهیم شد
+2. تعداد تغییرات در نهایت به 4 عدد کاهش میابد
 <b>  </b>
 
 ### گام ۵: جمع بندی
