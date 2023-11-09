@@ -357,7 +357,7 @@ OnlineOrderService و OnSiteOrderService
 با توجه به پیشنهادات ارائه شده در بخش قبل، اصلاحاتی را در پروژه اعمال کردیم که در commit
 زیر قابل مشاهده است:
 
-[commit hash or message](www.link_to_commit.com)
+[babe639f6ba4bd80b3b55a6bc3a72129476aefbb](https://github.com/hamiddeboo8/SOLID/commit/babe639f6ba4bd80b3b55a6bc3a72129476aefbb)
 
 ### گام ۴: بررسی مجدد تغییرات مورد نیاز
 
