@@ -295,7 +295,6 @@
 </td>
 <td>
 <p>
-<del>
  در کلاس های Food و Order
 رعایت شده است. از آنجا که این کلاس ها وابستگی به سایر کلاس ها ندارند برای توسعه آزاد هستند. 
 </td>
@@ -384,10 +383,8 @@ OnlineOrderService و OnSiteOrderService
 </td>
 <td>
 <p>
-این اصل در رابط OrderService و کلاس‌های مربوطه است به درستی رعایت شده است.
-
-<del> main
-نیز از این اصل پیروی می‌کند.</del>
+این اصل در ارتباط main
+و رابط OrderService و کلاس‌های مربوطه، به درستی رعایت شده است.
 </p>
 </td>
 </tr>
@@ -428,8 +425,6 @@ OnlineOrderService و OnSiteOrderService
 <td width="275">
 <p>
 همه فاز‌های مختلف سفارش دادن تا خرید در تابع main پیاده شده است.
-
-<del> شک دارم
 </p>
 </td>
 <td width="284">
@@ -446,7 +441,8 @@ OnlineOrderService و OnSiteOrderService
 </td>
 <td width="275">
 <p>
-برای اضافه کردن قابلیت جدید، مثلا خرید و ثبت سفارش تلفنی، باید کلاس های OnlineOrderService و OnSiteOrderService نیز تغییر بدهیم.
+برای اضافه کردن قابلیت جدید، مثلا خرید و ثبت سفارش تلفنی، باید رابط OrderService
+و متعاقبا کلاس های OnlineOrderService و OnSiteOrderService نیز تغییر بدهیم.
 </p>
 </td>
 <td width="284">
