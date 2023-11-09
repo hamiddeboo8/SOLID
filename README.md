@@ -299,7 +299,10 @@ OnlineOrderService و OnSiteOrderService
 </p>
 </td>
 <td width="284">
-<p>&nbsp;</p>
+<p>
+برای حل این مسئله توابع مناسبی را در کلاس Main
+می‌نویسیم و فاز‌های مختلف سفارش را در آن توابع پیاده می‌کنیم و در خود تابع main تنها به فراخوانی آن‌ها می‌پردازیم.
+</p>
 </td>
 </tr>
 
@@ -313,7 +316,7 @@ OnlineOrderService و OnSiteOrderService
 </p>
 </td>
 <td width="284">
-<p>&nbsp;</p>
+<p>توابع مربوط به یک کلاس خاص را که عمومیت ندارند، در رابط OrderService تعریف نمی‌کنیم.</p>
 </td>
 </tr>
 
@@ -329,12 +332,13 @@ OnlineOrderService و OnSiteOrderService
 و در کلاس OnlineOrderService
 توابع onSiteOrderRegister و onSiteOrderPayment
 باید خالی بمانند. 
-
-
 </p>
 </td>
 <td width="284">
-<p>&nbsp;</p>
+<p>
+در رابط OrderService
+ توابع کلی ثبت سفارش و پرداخت سفارش را تعریف می‌کنیم و در کلاس‌های ارث برنده از آن، توابع مربوط به نوع آن را پیاده‌سازی می‌کنیم.
+</p>
 </td>
 </tr>
 <tr>
