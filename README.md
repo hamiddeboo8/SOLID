@@ -1,2 +1,322 @@
-# SOLID-Check
-This is the second project for Software Engineering Lab at SUT.
+<div dir='rtl' align='center'>
+<h1> گزارش پروژه دوم </h1>
+<!-- محمد نامدار    -    حمیدرضا دهباشی -->
+</div>
+
+## مقدمه
+در این آزمایش قصد داریم با اصول شئ‌گرایی
+(SOLID)
+آشنایی پیدا کنیم و آن ها را در قالب یک پروژه عملی ساده به کار بگیریم.
+
+## اجرای آزمایش
+
+### گام اول: افزودن یک روش پرداخت دیگر
+در این گام قصد داریم یک روش پرداخت تلفنی به پروژه اصلی، که به طور کامل از اصول شئ‌گرایی پیروی نمی‌کند اضافه کنیم.
+
+خلاصه‌ای از تغییرات لازم برای پیاده‌سازی این قابلیت در جدول زیر آمده است:
+
+<div align='center'>
+<table dir='rtl'>
+<tbody>
+<tr>
+<td width="64">
+<p><strong>ردیف</strong></p>
+</td>
+<td width="198">
+<p><strong>محل اعمال تغییرات (کلاس/واسط)</strong></p>
+</td>
+<td width="141">
+<p><strong>عنوان تغییر</strong></p>
+</td>
+<td width="292">
+<p><strong>شرحی کوتاه از تغییر</strong></p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱</strong></p>
+</td>
+<td width="198">
+<p>Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع پرداخت تلفنی</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان phone Order Payment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۲</strong></p>
+</td>
+<td width="198">
+<p>Order Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع ثبت سفارش تلفتی</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع void با عنوان phone Order Payment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۳</strong></p>
+</td>
+<td width="198">
+<p>&nbsp;</p>
+</td>
+<td width="141">
+<p>&nbsp;</p>
+</td>
+<td width="292">
+<p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۴</strong></p>
+</td>
+<td width="198">
+<p>&nbsp;</p>
+</td>
+<td width="141">
+<p>&nbsp;</p>
+</td>
+<td width="292">
+<p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>&nbsp;</strong></p>
+</td>
+<td width="198">
+<p>&nbsp;</p>
+</td>
+<td width="141">
+<p>&nbsp;</p>
+</td>
+<td width="292">
+<p>&nbsp;</p>
+</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+مجموع تعداد تغییرات: <b> .............. </b>
+
+# Debooooooooooooooooooo
+
+### گام دوم : تحلیل و وارسی برنامه از منظر تحقق و یا عدم تحقق اصول SOLID
+
+در این گام برنامه از جهت رعایت اصول SOLID
+بررسی می‌کنیم و در مواردی که اصلی نقض شده است، راه حل‌هایی را برای اصلاح ارائه می‌دهیم.
+
+<div align='center'>
+<table dir='rtl'>
+<tbody>
+<tr>
+<td rowspan="2" width="240">
+<p>اصل 1</p>
+<p>Single Responsibility Principle</p>
+</td>
+<td width="95">
+<p><strong>موارد تحقق</strong></p>
+</td>
+<td width="454">
+<p>این اصل در کلاس‌های Food و Order
+ و همچنین در کلاس های OrderService
+رعایت شده است.</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p><strong>موارد نقض</strong></p>
+</td>
+<td>
+<p>در Main اصل SRP نقض شده است چرا که
+همه فاز‌های سفارش در تابع main پیاده شده است.</p>
+</td>
+</tr>
+
+
+
+<tr>
+<td rowspan="2">
+<p>اصل 2</p>
+<p>Open-Close Principle (OCP)</p>
+</td>
+<td>
+<p><strong>موارد تحقق</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p><strong>موارد نقض</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+
+
+
+<tr>
+<td rowspan="2">
+<p>اصل 3</p>
+<p>Liskov Substitution Principle</p>
+</td>
+<td>
+<p><strong>موارد تحقق</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p><strong>موارد نقض</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+
+
+
+<tr>
+<td rowspan="2">
+<p>اصل 4</p>
+<p>Interface Segregation Principle</p>
+</td>
+<td>
+<p><strong>موارد تحقق</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p><strong>موارد نقض</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+
+
+
+<tr>
+<td rowspan="2">
+<p>اصل 5</p>
+<p>Dependency Inversion Principle</p>
+</td>
+<td>
+<p><strong>موارد تحقق</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p><strong>موارد نقض</strong></p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+#### راه حل‌های اصلاحی پیشنهادی
+
+<div align='center'>
+<table dir='rtl'>
+<tbody>
+<tr>
+<td width="168">
+<p><strong>اصل مربوطه (از اصول </strong><strong>SOLID</strong><strong>)</strong></p>
+</td>
+<td width="246">
+<p><strong>علت نقض</strong></p>
+</td>
+<td width="284">
+<p><strong>راه حل پیشنهادی</strong></p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p>&nbsp;</p>
+</td>
+<td width="246">
+<p>&nbsp;</p>
+</td>
+<td width="284">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p>&nbsp;</p>
+</td>
+<td width="246">
+<p>&nbsp;</p>
+</td>
+<td width="284">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p>&nbsp;</p>
+</td>
+<td width="246">
+<p>&nbsp;</p>
+</td>
+<td width="284">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p>&nbsp;</p>
+</td>
+<td width="246">
+<p>&nbsp;</p>
+</td>
+<td width="284">
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+### گام ۳: اصلاح موارد نقض
+
+
+### گام ۴: بررسی مجدد تغییرات مورد نیاز
+
+
+### گام ۵: جمع بندی
+
